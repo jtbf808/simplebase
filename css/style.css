@@ -1,0 +1,23 @@
+/* VARIABLES */
+:root {
+
+    /* MAIN UI COLORS */
+    --body-background: #eee;
+    --body-text-color: #222;
+
+
+    /* LINK (COLORS) */
+    --link-color: #900;
+
+
+}
+
+
+body {
+    background-color: var(--body-background);
+    color: var(--body-text-color);
+}
+
+a {
+    color: var(--link-color);
+}
