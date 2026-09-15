@@ -12,60 +12,68 @@
 </head>
 
 <body>
-
-
-    <header>
-        <div class="logo">
+    <header class="site-header">
+        <div class="site-logo">
             <h1><a href="index.html">Simple Base</a></h1>
         </div>
-        <nav>
+        <nav class="site-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="styleguide.html">Style Guide</a></li>
-
             </ul>
         </nav>
 
     </header>
     <main>
 
+
         <section class="hero">
-            <h1>Hero Headline</h1>
-            <h2>Hero Subheadline</h2>
-            <p>Hero description text goes here.</p>
-            <a href="#" class="button">Button</a>
+            <div class="container">
+                <h1>Hero Headline</h1>
+                <h2>Hero Subheadline</h2>
+                <p>Hero description text goes here.</p>
+                <a href="#" class="button">Button</a>
+            </div>
         </section>
 
-        <section>
 
-            <h2>Section Heading</h2>
-            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit.lorem ipsum dolor sit amet, consectetur
-                adipiscing elit.lorem ipsum dolor sit amet, consectetur adipiscing elit.lorem ipsum dolor sit amet,
-                consectetur adipiscing elit.lorem ipsum dolor sit amet, consectetur adipiscing elit.lorem ipsum dolor
-                sit amet, consectetur adipiscing elit.</p>
-        </section>
-
+        <div class="content"></div>
     </main>
 
-    <footer>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-9">
+                    <div class="footer-logo">
+                        <h2><a href="index.html">Simple Base</a></h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor
+                            sit amet,
+                            consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-nav">
+                        <nav>
+                            <h2> Pages</h2>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="styleguide.html">Style Guide</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
 
-        <div class="logo">
-            <h2><a href="index.html">Simple Base</a></h1>
+            </div>
+
+
+
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="styleguide.html">Style Guide</a></li>
-            </ul>
-        </nav>
-
-
-        <!-- MAIN JS FILE -->
-        <script src="js/script.js"></script>
-
     </footer>
 
-
+    <!-- MAIN JS FILE -->
+    <script src="js/script.js"></script>
 
 </body>
 

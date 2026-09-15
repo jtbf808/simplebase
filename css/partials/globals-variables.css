@@ -1,0 +1,31 @@
+/* GLOBAL VARIABLES */
+:root {
+
+    /* MAIN UI COLORS */
+    --body-background: #eee;
+    --body-text-color: #222;
+
+
+    /* LINK (COLORS) */
+    --link-color: #900;
+
+
+    /* LINK HOVER (COLORS) */
+    --link-hover-color: #f00;
+
+
+    /* TYPOGRAPHY */
+    --body-font-family: 'Gotham A', 'Gotham B', sans-serif;
+    --heading-font-family: 'Futura PT', sans-serif;
+
+
+    /* SIZING UNITS */
+    --unit-extrasmall: 0.5rem;
+    --unit-small: 1rem;
+    --unit-medium: 1.5rem;
+    --unit-large: 2rem;
+    --unit-xlarge: 3rem;
+
+
+
+}
