@@ -26,6 +26,14 @@
     --unit-large: 2rem;
     --unit-xlarge: 3rem;
 
+    /* SITE STRUCTURE COLORS */
+    --site-header-background-color: #fff;
+    --site-header-text-color: #000;
 
+    --site-footer-background-color: #eee;
+    --site-footer-text-color: #000;
+
+    --sitenav-drawer-menu-background-color: #ccffff;
+    --sitenav-drawer-menu-text-color: #000;
 
 }

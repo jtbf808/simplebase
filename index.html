@@ -14,9 +14,18 @@
 <body>
     <header class="site-header">
         <div class="site-logo">
+            <img src="media/logo.svg" alt="Simple-Base-Logo" width="40" height="40">
             <h1><a href="index.html">Simple Base</a></h1>
         </div>
-        <nav class="site-nav">
+        <nav class="site-nav mobile-menu">
+            <button class="menu-button">
+                <svg class="menu-button-navicon rotate-to-x squish-to-x" width="30" height="24">
+                    <rect class="top-line" x="0" y="0" height="4" width="30"></rect>
+                    <rect class="mid-line" x="0" y="10" height="4" width="30"></rect>
+                    <rect class="bot-line" x="0" y="20" height="4" width="30"></rect>
+                </svg>
+                <span class="menu-button-text">Menu</span>
+            </button>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="styleguide.html">Style Guide</a></li>
@@ -24,9 +33,10 @@
         </nav>
 
     </header>
+
+
+
     <main>
-
-
         <section class="hero">
             <div class="container">
                 <h1>Hero Headline</h1>
@@ -38,7 +48,51 @@
 
 
         <div class="content"></div>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="media/Placeholder-3200x1800.jpg" alt="Sample Image">
+                    </div>
+                    <div class="col-6">
+                        <h2>Vertical Centered Row</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
+
+                </div>
+
+                <div class="container">
+                    <div class="row swapped">
+                        <div class="col-6">
+                            <img src="media/Placeholder-3200x1800.jpg" alt="Sample Image">
+                        </div>
+                        <div class="col-6">
+                            <h2>Vertical Centered Row</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="one-half centered">
+                            <img src="media/Placeholder-3200x1800.jpg" alt="Sample Image">
+                            <h2>Vertical Centered Row</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+        </section>
+
     </main>
+
 
     <footer class="site-footer">
         <div class="container">
@@ -46,9 +100,12 @@
                 <div class="col-9">
                     <div class="footer-logo">
                         <h2><a href="index.html">Simple Base</a></h2>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet,
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit
+                            amet,
                             consectetur
-                            adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor
+                            adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem
+                            ipsum
+                            dolor
                             sit amet,
                             consectetur adipiscing elit.</p>
                     </div>
