@@ -30,6 +30,8 @@
 /* UI STYLES (Buttons, Menu, Cards, etc.) */
 /* -----These define the appearance and behavior of user interface components----- */
 
+@import url('partials/ui-buttons.css');
+@import url('partials/ui-cards.css');
 
 /* UNIQUE STYLES (Extras, Flavor, Animation, etc.) */
 /* -----These add unique touches and personality to the project----- */
